@@ -32,3 +32,10 @@ fatal: The current branch main has no upstream branch.
 To push the current branch and set the remote as upstream, use
 
     git push --set-upstream origin main
+
+Git revert/reset :: 
+Q: How to go back to particular commit of a file?
+Git revert : but it makes another commit
+
+Q: Reset to original state of git workspace?
+ git reset --hard HEAD~1
